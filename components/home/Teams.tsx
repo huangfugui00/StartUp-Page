@@ -174,7 +174,7 @@ const Teams = () => {
     return (
         <div className="mt-12 my-container">
             <TitleHeader title={'OUR TEAM'} subTitle={'The most qualified and talented individuals'}/>
-        <div className="grid grid-cols-12 justify-center gap-8  mx-auto">
+        <div className="grid grid-cols-12 justify-center sm:gap-8  mx-auto">
             {
                 data.map((member)=>
                 <div className="py-4 hover:shadow-md ease-in-out duration-500 group rounded-lg col-span-6 md:col-span-4 relative flex flex-col items-center text-center" key={member.title}>

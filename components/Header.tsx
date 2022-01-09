@@ -25,9 +25,11 @@ const navlist=[
 const Header = () => {
     return (
         <div className="py-4  items-center grid grid-cols-12">
-            <div className="relative w-96 h-8 sm:h-10 col-span-4">
+            <div className="relative w-36 md:w-48 h-8 sm:h-10 col-span-4">
                 <Image src={'/assets/logo.svg'} layout="fill" objectFit="contain" objectPosition="left"/>
             </div>
+        
+
              {/* nav item  */}
              <div className="hidden md:block md:col-span-4">
                 <div className="flex justify-between">

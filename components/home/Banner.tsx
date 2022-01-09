@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Banner = () => {
     return (
-        <div className="">
+        <div >
             <div className="mt-24 flex flex-col justify-center items-center">
                 <div className="w-72 md:w-96">
                     <h1 className="text-center text-2xl md:text-4xl font-semibold leading-normal">Top Quality Digital Products To Explore</h1>

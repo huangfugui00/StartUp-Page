@@ -17,8 +17,7 @@ export default function Home() {
         <title>Instagram clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="pb-10">
-
+      <main className="">
         <Banner/>
         <KeyFeature/>
         <ServiceSection/>
@@ -27,6 +26,13 @@ export default function Home() {
         <Workflow/>
         <PricePlan/>
         <Teams/>
+        {/* <KeyFeature/>
+        <ServiceSection/>
+        <Features/>
+        <CoreFeature/>
+        <Workflow/>
+        <PricePlan/>
+        <Teams/> */}
       </main>
 
      
