@@ -6,7 +6,7 @@ const Banner = () => {
         <div >
             <div className="mt-24 flex flex-col justify-center items-center">
                 <div className="w-72 md:w-96">
-                    <h1 className="text-center text-2xl md:text-4xl font-semibold leading-normal">Top Quality Digital Products To Explore</h1>
+                    <h1 className="text-center text-2xl md:text-4xl font-semibold leading-normal  hover:animate-bounce ">Top Quality Digital Products To Explore</h1>
                     <p className="text-center text-sm md:text-md mt-6 leading-loose">  Get your blood tests delivered at let home collect sample from the
                     victory of the managements that supplies best design system
                     guidelines ever.</p>

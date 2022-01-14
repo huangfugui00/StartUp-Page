@@ -6,6 +6,7 @@ import type { AppProps } from 'next/app'
 import SEO from '../components/SEO'
 import Layout from '../components/Layout'
 function MyApp({ Component, pageProps }: AppProps) {
+  
   return (
     <Layout>
       <SEO/>

@@ -10,9 +10,15 @@ class MyDocument extends Document {
     return (
       <Html lang='en'>
         <Head />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <body>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
           <Main />
           <NextScript />
+         
         </body>
       </Html>
     )

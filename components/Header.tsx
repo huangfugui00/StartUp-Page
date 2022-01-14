@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import MenuSide from '../components/MenuSide'
+
 const navlist=[
     {
       path: '#home',
@@ -22,7 +23,10 @@ const navlist=[
   ];
   
 
-const Header = () => {
+type HeaderProp={
+  curNavIndex:number
+}
+const Header = ({curNavIndex}:HeaderProp) => {
     return (
         <div className="py-4  items-center grid grid-cols-12">
             <div className="relative w-36 md:w-48 h-8 sm:h-10 col-span-4">
@@ -33,10 +37,11 @@ const Header = () => {
              {/* nav item  */}
              <div className="hidden md:block md:col-span-4">
                 <div className="flex justify-between">
-                    {navlist.map((item)=>(
+                    {navlist.map((item,i)=>(
+        
                         <Link href={item.path} key={item.label}>
                         <a>
-                            <span className=" font-serif animate__animated animate__bounce">{item.label}</span>
+                            <span className={`font-serif ${i===curNavIndex&& 'text-red-300'}`}>{item.label}</span>
                         </a>
                         </Link>
                     ))}

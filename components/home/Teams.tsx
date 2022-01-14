@@ -177,7 +177,7 @@ const Teams = () => {
         <div className="grid grid-cols-12 justify-center sm:gap-8  mx-auto">
             {
                 data.map((member)=>
-                <div className="py-4 hover:shadow-md ease-in-out duration-500 group rounded-lg col-span-6 md:col-span-4 relative flex flex-col items-center text-center" key={member.title}>
+                <div className="py-4 hover:shadow-md ease-in-out duration-500 group rounded-lg col-span-6 md:col-span-4 relative flex flex-col items-center text-center" key={member.id}>
                     <div className="relative w-20 h-20 border rounded-full border-red-500 md:w-24 md:h-24 lg:w-28 lg:h-28">
                         <Image src={member.imgSrc} alt={member.title} layout='fill'/>
                     </div>

@@ -99,7 +99,7 @@ const plans=[
 const PricePlan = () => {
     const matches = useMediaQuery('(max-width:768px)');
     return (
-        <div className="mt-12 my-container">
+        <div className="mt-12 my-container" id="pricing">
             <div className="max-w-ws mx-auto text-center mb-12 ">
                 <h2 className="text-red-400 text-xs mb-2">PRICE PLAN</h2>
                 <p className="text-xl font-bold">Choose your pricing policy</p>
